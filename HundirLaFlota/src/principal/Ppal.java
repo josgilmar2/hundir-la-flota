@@ -1,16 +1,16 @@
 package principal;
 
-import vista.ImprimirOpciones;
+import vista.ImprimirAnimacion;
 
 public class Ppal {
 
 	public static void main(String[] args) throws InterruptedException{
 		// TODO Auto-generated method stub
 		
-		ImprimirOpciones.animacion();
+		ImprimirAnimacion.animacion();
 		//Si se gana encontrando el one piece.
-		ImprimirOpciones.bosco();
-
+		ImprimirAnimacion.bosco();
+		
 	}
 
 }
