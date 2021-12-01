@@ -2,14 +2,9 @@ package vista;
 
 public class ImprimirAnimacion {
 	
-private int inicio = 0;
-	
 	public ImprimirAnimacion () {
 		
-		this.inicio=inicio;
-		
-		
-		}
+	}
 	
 	public static void animacion () throws InterruptedException{
 		int tam=10, tam2=15, tam3=10, tam4=25;
