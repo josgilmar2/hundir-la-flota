@@ -1,18 +1,27 @@
 package model;
 
+//ESTA CLASE SIRVE PARA GENERAR LOS OBJETOS BARCO. COGERÁ LOS DATOS DE LA CLASE DatosBarco.
+//POSTERIORMENTE SE PASAN ESTOS OBJETOS A LA DAT
+
 public class Barco {
 	
 	//ATRIBUTOS
 	private int longitud;
-	private String nombre;
+	private String orientacion;
+	private int posicionx;
+	private int posiciony;
 	
 	//CONSTRUCTOR
-	public Barco(int longitud, String nombre) {
+	public Barco(int posicionx, int posiciony, int longitud, String orientacion) {
+		
+		this.posicionx = posicionx;
+		this.posiciony = posiciony;
 		this.longitud = longitud;
-		this.nombre = nombre;
+		this.orientacion = orientacion;
 	}
 	
 	//GETTERS AND SETTERS
+
 	public int getLongitud() {
 		return longitud;
 	}
@@ -21,12 +30,31 @@ public class Barco {
 		this.longitud = longitud;
 	}
 
-	public String getNombre() {
-		return nombre;
+	public String getOrientacion() {
+		return orientacion;
 	}
 
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
+	public void setOrientacion(String orientacion) {
+		this.orientacion = orientacion;
 	}
+
+	public int getPosicionx() {
+		return posicionx;
+	}
+
+	public void setPosicionx(int posicionx) {
+		this.posicionx = posicionx;
+	}
+
+	public int getPosiciony() {
+		return posiciony;
+	}
+
+	public void setPosiciony(int posiciony) {
+		this.posiciony = posiciony;
+	}
+	
+	
+	
 
 }
