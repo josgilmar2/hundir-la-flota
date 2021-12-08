@@ -1,5 +1,7 @@
 package model;
 
+import utilidades.Leer;
+
 public class Jugador {
 	
 	//ATRIBUTOS
@@ -7,9 +9,15 @@ public class Jugador {
 	private double puntuacion;
 	
 	//CONSTRUCTOR
+	
 	public Jugador(String nombre, double puntuacion) {
 		this.nombre = nombre;
 		this.puntuacion = puntuacion;
+	}
+	//CONSTRUCTOR V2
+	
+	public Jugador(String nombre) {
+		this.nombre=nombre;
 	}
 
 	//GETTERS AND SETTERS

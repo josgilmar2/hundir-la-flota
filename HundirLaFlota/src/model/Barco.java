@@ -6,17 +6,17 @@ package model;
 public class Barco {
 	
 	//ATRIBUTOS
+	private String nombre;
 	private int longitud;
-	private String orientacion;
+	private int orientacion;
 	private int posicionx;
 	private int posiciony;
 	
 	//CONSTRUCTOR
-	public Barco(int posicionx, int posiciony, int longitud, String orientacion) {
+	public Barco(String nombre, int longitud, int posicionx, int posiciony, int orientacion) {
 		
 		this.posicionx = posicionx;
 		this.posiciony = posiciony;
-		this.longitud = longitud;
 		this.orientacion = orientacion;
 	}
 	
@@ -26,15 +26,12 @@ public class Barco {
 		return longitud;
 	}
 
-	public void setLongitud(int longitud) {
-		this.longitud = longitud;
-	}
-
-	public String getOrientacion() {
+	public int getOrientacion() {
+		
 		return orientacion;
 	}
 
-	public void setOrientacion(String orientacion) {
+	public void setOrientacion(int orientacion) {
 		this.orientacion = orientacion;
 	}
 
