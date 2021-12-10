@@ -23,13 +23,13 @@ public class Ppal {
 		
 		//MENÚ 
 		
-		menu.ImprimirMenu();
+		menu.imprimirMenu();
 		op=Leer.datoInt();
 		
 		switch (op) {
 		
 			case 1:
-				menu.ImprimirSubmenu();
+				menu.imprimirSubmenu();
 				op=Leer.datoInt();
 				switch (op) {
 					
@@ -43,8 +43,11 @@ public class Ppal {
 						jugador2=new Jugador (Leer.dato());
 						
 						//AQUÍ POSICIONAMOS BARCOS.
-						
+						System.out.println("Ahora solo tiene que colocar sus barcos."
+								+ "\nTenga en cuenta que no pueden salirse del tablero ni superponerse. Aún así, si es subnormal no tiene que preocuparse porque hemos previsto su deficiencia.");
 						tablero.imprimirTablero();
+						
+						//FOR EACH QUE REGISTRE BARCOS (DENTRO DE POSICIONAR BARCOS).
 						
 						//AQUÍ EMPIEZA EL BUCLE DE LA PARTIDA.
 						
