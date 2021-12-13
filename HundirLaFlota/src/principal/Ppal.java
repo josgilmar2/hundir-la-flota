@@ -29,7 +29,7 @@ public class Ppal {
 		switch (op) {
 		
 			case 1:
-				menu.imprimirSubmenu();
+				menu.imprimirSubmenuJugar();
 				op=Leer.datoInt();
 				switch (op) {
 					
@@ -37,9 +37,9 @@ public class Ppal {
 						
 						//AQUÍ INTRODUCIMOS LOS NOMBRES DE LOS JUGADORES.
 						
-						System.out.println("Introduzca el nombre del jugador 1.");
+						System.out.println("\nIntroduzca el nombre del jugador 1.");
 						jugador1=new Jugador (Leer.dato());
-						System.out.println("Introduzca el nombre del jugador 2.");
+						System.out.println("\nIntroduzca el nombre del jugador 2.");
 						jugador2=new Jugador (Leer.dato());
 						
 						//AQUÍ POSICIONAMOS BARCOS.
@@ -59,12 +59,12 @@ public class Ppal {
 						break;
 						
 					case 2:
-						System.out.println("");
+						
 						break;
 				}
 				break;
 			case 2:
-				
+				menu.imprimirSubmenuInstrucciones();
 				break;
 			case 0:
 				break;
