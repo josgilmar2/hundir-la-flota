@@ -24,7 +24,7 @@ public class ImprimirMenu {
 		System.out.println("2. Si tocas o hundes un barco, el turno vuelve a recaer sobre ti.");
 		System.out.println("3. Si impactas en el agua, el turno pasa a tu rival.");
 		System.out.println("4. Si hundes dos barcos seguidos, tendrás la oportunidad de lanzar "
-				+ "\n\tuna bomba que ocupará cuatro casillas de forma cuadrangular.");
+				+ "\n\tuna bomba que ocupará una zona 3x3 del tablero rival.");
 		System.out.println("5. Existe una opción para ganar directamente ya que se generará "
 				+ "\n\tde forma aleatoria un barco que ocupe una casilla en el tablero rival, "
 				+ "\n\tsi aciertas cuál es ganarás la partida de forma automática.");

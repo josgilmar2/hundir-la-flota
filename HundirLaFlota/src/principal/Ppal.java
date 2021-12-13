@@ -43,8 +43,8 @@ public class Ppal {
 						jugador2=new Jugador (Leer.dato());
 						
 						//AQUÍ POSICIONAMOS BARCOS.
-						System.out.println("Ahora solo tiene que colocar sus barcos."
-								+ "\nTenga en cuenta que no pueden salirse del tablero ni superponerse. Aún así, si es subnormal no tiene que preocuparse porque hemos previsto su deficiencia.");
+						System.out.println("\nAhora solo tiene que colocar sus barcos."
+								+ "\n\nTenga en cuenta que no pueden salirse del tablero ni superponerse. Aún así, si es subnormal no tiene que preocuparse porque hemos previsto su deficiencia.\n");
 						tablero.imprimirTablero();
 						
 						//FOR EACH QUE REGISTRE BARCOS (DENTRO DE POSICIONAR BARCOS).
