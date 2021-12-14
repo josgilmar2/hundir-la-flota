@@ -42,7 +42,7 @@ public class Ppal {
 						
 						System.out.printf("\nIntroduzca el nombre del jugador 1: ");
 						jugador1=new Jugador (Leer.dato());
-						System.out.printf("\n\nIntroduzca el nombre del jugador 2: ");
+						System.out.printf("\nIntroduzca el nombre del jugador 2: ");
 						jugador2=new Jugador (Leer.dato());
 						
 						//AQUÍ POSICIONAMOS BARCOS JUGADOR 1.
@@ -50,7 +50,7 @@ public class Ppal {
 								+ "\n\nTenga en cuenta que no pueden salirse del tablero ni superponerse. Aún así, si es subnormal no tiene que preocuparse porque hemos previsto su deficiencia.\n\n", jugador1.getNombre());
 						tablero.imprimirTablero();
 						
-						//FOR EACH QUE REGISTRE BARCOS JUGADOR 1 (DENTRO DE POSICIONAR BARCOS).
+						//MÉTODO QUE REGISTRE BARCOS JUGADOR 1 (DENTRO DE POSICIONAR BARCOS).
 						
 						
 						//AQUÍ POSICIONAMOS BARCOS JUGADOR 2
@@ -58,7 +58,7 @@ public class Ppal {
 								+ "\n\nTenga en cuenta que no pueden salirse del tablero ni superponerse. Aún así, si es subnormal no tiene que preocuparse porque hemos previsto su deficiencia.\n\n", jugador2.getNombre());
 						tablero.imprimirTablero();
 					
-						//FOR EACH QUE REGISTRE BARCOS JUGADOR 2 (DENTRO DE POSICIONAR BARCOS).
+						//MÉTODO QUE REGISTRE BARCOS JUGADOR 2 (DENTRO DE POSICIONAR BARCOS).
 						
 						
 						//AQUÍ EMPIEZA EL BUCLE DE LA PARTIDA.
