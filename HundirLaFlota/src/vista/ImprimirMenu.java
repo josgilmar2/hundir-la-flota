@@ -6,7 +6,8 @@ public class ImprimirMenu {
 	
 	public void imprimirMenu () {
 		
-		System.out.println("Opciones:"
+		System.out.println("Bienvenidos a JO_JEAN® Battle Of The Seas."
+				+ "\nOpciones:"
 				+ "\n\n1. Jugar"
 				+ "\n2. Instrucciones"
 				+ "\n0. Salir");

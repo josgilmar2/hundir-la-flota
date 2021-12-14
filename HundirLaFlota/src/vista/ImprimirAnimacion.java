@@ -6,7 +6,7 @@ public class ImprimirAnimacion {
 		
 	}
 	
-	public static void animacion () throws InterruptedException{
+	public void animacion () throws InterruptedException{
 		int tam=10, tam2=15, tam3=10, tam4=25;
 		
 		//SYSO CARGA DEL JUEGO.
@@ -82,12 +82,6 @@ public class ImprimirAnimacion {
 				+ "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n");
 		Thread.sleep(1000);
 				
-		System.out.println("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n"
-				+ "\n\nBienvenidos a JoJean Battle of the seas."
-				+ "\n1. ¿Cómo jugar?"
-				+ "\n2. Jugar"
-				+ "\n3. Opciones"
-				+ "");
 	}
 	
 		//▓ ■ 
@@ -98,7 +92,7 @@ public class ImprimirAnimacion {
 	
 	//IMAGEN DE DON BOSCO PARA EL ONE PIECE.
 	
-	public static void bosco (){
+	public void bosco (){
 		
 		System.out.println("hhhhhhhhyyyyyyyyyyyhhyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyysssyyyyyyyssyyyyyys\n"+
 				"yyhhhhyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyysssyyyyyyyyyyyyyyyyyyyyysyyyyysyyyssyyyys\n"+
