@@ -4,6 +4,7 @@ import utilidades.*;
 import vista.*;
 import model.*;
 import crud.*;
+import controller.*;
 
 
 public class Ppal {
@@ -51,6 +52,7 @@ public class Ppal {
 						tablero.imprimirTablero();
 						
 						//MÉTODO QUE REGISTRE BARCOS JUGADOR 1 (DENTRO DE POSICIONAR BARCOS).
+						
 						
 						
 						//AQUÍ POSICIONAMOS BARCOS JUGADOR 2

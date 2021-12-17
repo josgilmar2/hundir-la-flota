@@ -9,14 +9,14 @@ public class Barco {
 	private String nombre;
 	private int longitud;
 	private int orientacion;
-	private int posicionx;
-	private int posiciony;
+	private int fila;
+	private int columna;
 	
 	//CONSTRUCTOR
-	public Barco(String nombre, int longitud, int posicionx, int posiciony, int orientacion) {
+	public Barco(String nombre, int longitud, int fila, int columna, int orientacion) {
 		
-		this.posicionx = posicionx;
-		this.posiciony = posiciony;
+		this.fila = fila;
+		this.columna = columna;
 		this.orientacion = orientacion;
 	}
 	
@@ -35,20 +35,20 @@ public class Barco {
 		this.orientacion = orientacion;
 	}
 
-	public int getPosicionx() {
-		return posicionx;
+	public int getFila() {
+		return fila;
 	}
 
-	public void setPosicionx(int posicionx) {
-		this.posicionx = posicionx;
+	public void setFila(int fila) {
+		this.fila = fila;
 	}
 
-	public int getPosiciony() {
-		return posiciony;
+	public int getColumna() {
+		return columna;
 	}
 
-	public void setPosiciony(int posiciony) {
-		this.posiciony = posiciony;
+	public void setColumna(int columna) {
+		this.columna = columna;
 	}
 	
 	

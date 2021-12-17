@@ -8,11 +8,12 @@ import model.Barco;
 public class DatosBarco {
 	
 	
-	Barco[] barcos= {new Barco ("Thousand Sunny", 4, 0, 0, 0),
-			new Barco ("Oro Jackson", 3, 0, 0, 0),
-			new Barco ("Going Merry", 2, 0, 0, 0),
-			new Barco ("Moby Dick", 2, 0, 0, 0),
-			new Barco ("Sexy Foxy", 1, 0, 0, 0),
+	Barco[] barcos= {new Barco ("Thousand Sunny", 5, 0, 0, 0),
+			new Barco ("Oro Jackson", 4, 0, 0, 0),
+			new Barco ("Going Merry", 3, 0, 0, 0),
+			new Barco ("Moby Dick", 3, 0, 0, 0),
+			new Barco ("Sexy Foxy", 2, 0, 0, 0),
+			new Barco("Red Force", 2, 0, 0, 0),
 			new Barco ("Utan Sonar", 1, 0, 0, 0)};
 	
 
